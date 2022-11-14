@@ -45,5 +45,5 @@ I added 2 additional layers and over 70 neurons over my 3 separate attempts to i
 
 ##### Summary
 
-In summary, adding more neurons and layers did not help the accuracy of my model.  I would reccomend dropping a couple columns, perhaps the STATUS and SPECIAL_CONSIDERATIONS tab on this.  
+In summary, adding more neurons and layers did not help the accuracy of my model.  The accuracy dropped about 5% using additional layers and neurons.  It actually did decrease the amount of loss by about .07 which was good.  To further help with the accuracy I would reccomend dropping a couple columns, perhaps the STATUS and SPECIAL_CONSIDERATIONS tab on this.  This would possibly give us an accuracy score over 75% which is what we are looking for. 
 
