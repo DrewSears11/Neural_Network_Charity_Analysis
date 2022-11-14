@@ -33,6 +33,7 @@ For my optimization model I used a total of 115 neurons over 4 layers with 2 sep
 
 As you can see from below I was not.  It looks like I actually lost accuracy when I increased the number of layers and neurons.  The screenshot below is my optimized model after three attempts.
 ![image](https://user-images.githubusercontent.com/108240844/201556288-95addb49-d18e-4d8d-b6d8-d573cd2baf84.png)
+
 Below is our "baseline" model
 
 ![image](https://user-images.githubusercontent.com/108240844/201556325-0f448ce6-6b6a-4f6b-8374-871a7ccedbb5.png)
