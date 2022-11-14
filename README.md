@@ -8,7 +8,7 @@ successful is funded by Alphabet soup.
 
 ### Results
 
-##### Data Preprocessing
+### Data Preprocessing
 
 - What variable(s) are considered the target(s) for your model? 
 
@@ -24,7 +24,7 @@ ASK_AMT
 We removed the ID and the NAME because they had no
 bearing on if the venture was successful or not.
 
-##### Compiling, Training, and Evaluating the Model
+### Compiling, Training, and Evaluating the Model
 
 - How many neurons, layers, and activation functions did you select for your neural network model, and why? 
 
@@ -32,6 +32,7 @@ For my optimization model I used a total of 115 neurons over 4 layers with 2 sep
 - Were you able to achieve the target model performance? 
 
 As you can see from below I was not.  It looks like I actually lost accuracy when I increased the number of layers and neurons.  The screenshot below is my optimized model after three attempts.
+
 ![image](https://user-images.githubusercontent.com/108240844/201556288-95addb49-d18e-4d8d-b6d8-d573cd2baf84.png)
 
 Below is our "baseline" model
@@ -43,7 +44,7 @@ Below is our "baseline" model
 
 I added 2 additional layers and over 70 neurons over my 3 separate attempts to increase accuracy.
 
-##### Summary
+### Summary
 
 In summary, adding more neurons and layers did not help the accuracy of my model.  The accuracy dropped about 5% using additional layers and neurons.  It actually did decrease the amount of loss by about .07 which was good.  To further help with the accuracy I would reccomend dropping a couple columns, perhaps the STATUS and SPECIAL_CONSIDERATIONS tab on this.  This would possibly give us an accuracy score over 75% which is what we are looking for. 
 
